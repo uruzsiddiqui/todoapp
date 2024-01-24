@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Snitch Add</title>
+    <h1 class="apo">SNITCH ADD: <br></h1>
+    <h2 class="apo">SNITCH LIST APP</h2>
+    <!-- <img src="back.jpg" alt="" srcset=""> -->
+</head>
+
+<body>
+    <h3 class="apo1">A SNITCH LIST APP by AMAN</h3>
+
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">MY SNITCH LIST APP</h1>
+                <p>This APP can perform ALL Tasks!</p><br>
+                
+
+            </div>
+        </header>
+        <div id="todo-list">
+            <h2 class="title">Today's TO-DO list</h2>
+
+            <ul id="list">
+                <li>Have my Quiet Time</li>
+                <li>Do some Work-outs</li>
+                <li>Dress Up</li>
+            </ul>
+        </div>
+        <div id="add-todo">
+            <input type="text" id="text" placeholder="Add a Todo..." required>
+            <span> <button onclick="addLI()">Add</button></span>
+            <span> <button onclick="editLI()">Edit</button></span>
+            <span> <button onclick="deleteLI()">Delete</button></span>
+        </div>
+
+
+    </div>
+
+    <script src="api.js"></script>
+</body>
+
+</html>
