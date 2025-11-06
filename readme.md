@@ -1,0 +1,1 @@
+This is the example of the status and clone
